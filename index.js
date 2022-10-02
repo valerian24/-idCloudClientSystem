@@ -2,7 +2,7 @@ const balance = require("./reference/balance");
 const email = require("./reference/email");
 const log = require("./reference/log");
 
-const minBalance = 5000000;
+const minBalance = 100000;
 
 balance.getOngoingBalance((err, res) => {
     if (err) throw err;
