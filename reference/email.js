@@ -8,7 +8,7 @@ function sendingEmail(txtfrom, txtto, txtsubject, txtmessage, callback) {
         secure: false,
         auth: {
             user: "dev.valerian@gmail.com",
-            pass: "mydev24.",
+            pass: "pfkoxuhjtdfeygea",
         },
     });
 
